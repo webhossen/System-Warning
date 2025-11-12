@@ -34,3 +34,7 @@ Install dependencies before running:
 
 ```bash
 pip install pyttsx3
+pip install tkinter as tk
+pip install threading
+pip install time
+pip install winsound 
