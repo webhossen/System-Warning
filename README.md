@@ -1,4 +1,4 @@
-# ⚡ Fast App – System Warning Demo
+# ⚡ Prank App – System Warning Demo
 
 A fun and visually dynamic **Python Tkinter application** that simulates a system warning screen with flashing borders, progress effects, speech, and sound.  
 Created by **Md Anayet Hossen** as a learning and demonstration project for **Tkinter UI, threading, and audio handling** in Python.
@@ -47,7 +47,7 @@ pip install pyttsx3
 3. Run the script:
 
 ```bash
-python "fast app.py"
+python "System-Warning.py"
 ```
 
 4. To safely exit the demo, press:
@@ -80,14 +80,14 @@ Below are concise, copy-pasteable commands for both **Command Prompt (cmd)** and
 
 ### 🧩 Example — Basic Console Program
 
-Assume your script is `fast app.py`.
+Assume your script is `System-Warning.py`.
 
 #### Command Prompt:
 
 ```cmd
 python -m pip install --upgrade pip
 python -m pip install pyinstaller
-python -m PyInstaller --onefile "fast app.py"
+python -m PyInstaller --onefile "System-Warning.py"
 ```
 
 #### PowerShell:
@@ -95,7 +95,7 @@ python -m PyInstaller --onefile "fast app.py"
 ```powershell
 python -m pip install --upgrade pip
 python -m pip install pyinstaller
-python -m PyInstaller --onefile "fast app.py"
+python -m PyInstaller --onefile "System-Warning.py"
 ```
 
 After this, the executable will be at:
@@ -119,12 +119,12 @@ dist\fast app.exe
 
 Example with icon:
 ```cmd
-python -m PyInstaller --onefile --windowed --icon="C:\path\to\app.ico" "fast app.py"
+python -m PyInstaller --onefile --windowed --icon="C:\path\to\app.ico" "System-Warning.py"
 ```
 
 PowerShell note for `--add-data` quoting:
 ```powershell
-python -m PyInstaller --onefile --add-data 'C:\path\to\data\myfile.dat;data' "fast app.py"
+python -m PyInstaller --onefile --add-data 'C:\path\to\data\myfile.dat;data' "System-Warning.py"
 ```
 
 ---
@@ -135,12 +135,12 @@ PyInstaller usually detects these automatically.
 If not, add manual hints:
 
 ```cmd
-python -m PyInstaller --onefile --hidden-import=some_module "fast app.py"
+python -m PyInstaller --onefile --hidden-import=some_module "System-Warning.py"
 ```
 
 For data files, use:
 ```cmd
-python -m PyInstaller --onefile --add-data "assets;assets" "fast app.py"
+python -m PyInstaller --onefile --add-data "assets;assets" "System-Warning.py"
 ```
 
 ---
@@ -152,7 +152,7 @@ python -m PyInstaller --onefile --add-data "assets;assets" "fast app.py"
 python -m venv venv
 venv\Scripts\activate
 pip install pyinstaller
-python -m PyInstaller --onefile "fast app.py"
+python -m PyInstaller --onefile "System-Warning.py"
 ```
 
 **PowerShell:**
@@ -160,7 +160,7 @@ python -m PyInstaller --onefile "fast app.py"
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install pyinstaller
-python -m PyInstaller --onefile "fast app.py"
+python -m PyInstaller --onefile "System-Warning.py"
 ```
 
 If activation is blocked:
@@ -200,7 +200,7 @@ del fast app.spec
 
 - If your exe crashes, rebuild **without** `--windowed` to see the error:
   ```cmd
-  python -m PyInstaller --onefile "fast app.py"
+  python -m PyInstaller --onefile "System-Warning.py"
   ```
 - Run from CMD to read any error messages.  
 - Check missing resources (`--add-data`) or hidden imports.
