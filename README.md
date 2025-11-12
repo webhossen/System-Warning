@@ -100,7 +100,7 @@ python -m PyInstaller --onefile "System-Warning.py"
 
 After this, the executable will be at:
 ```
-dist\fast app.exe
+dist\System-Warning.exe
 ```
 
 ---
@@ -175,14 +175,14 @@ Set-ExecutionPolicy RemoteSigned
 
 After running PyInstaller:
 
-- ✅ `dist\fast app.exe` — final executable  
+- ✅ `dist\System-Warning.exe` — final executable  
 - 🧩 `build\...` — build intermediates  
-- ⚙️ `fast app.spec` — configuration file (editable for advanced builds)
+- ⚙️ `System-Warning.spec` — configuration file (editable for advanced builds)
 
 To clean up:
 ```cmd
 rmdir /s /q build dist
-del fast app.spec
+del System-Warning.spec
 ```
 
 ---
