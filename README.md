@@ -28,6 +28,14 @@ This project demonstrates:
 
 ---
 
+## ⚠️ Disclaimer
+
+> This app is **for educational and entertainment purposes only**.  
+> It does **not actually hack, copy, or access any real data**.  
+> Please use responsibly and do not distribute it to mislead others.
+
+---
+
 ## 🛠️ Requirements
 
 Install dependencies before running:
@@ -213,13 +221,6 @@ Other tools exist (like `cx_Freeze`, `py2exe`),
 but **PyInstaller** remains the most popular and simplest for most needs.
 
 ---
-
-## ⚠️ Disclaimer
-
-> This app is **for educational and entertainment purposes only**.  
-> It does **not actually hack, copy, or access any real data**.  
-> Please use responsibly and do not distribute it to mislead others.
-
 ---
 
 ## 👨‍💻 Author
